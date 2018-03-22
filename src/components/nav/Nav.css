@@ -1,0 +1,24 @@
+.nav-bar {
+  height: 65px;
+  background: #313131;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-bar.transparent {
+  background: linear-gradient(to bottom, rgba(10,10,10,1), rgba(255,0,0,0));
+}
+
+.nav-logo {
+  width: 55px;
+  height: auto;
+}
+
+span {
+  margin-left: 50px;
+  color: #fdfcef;
+}
