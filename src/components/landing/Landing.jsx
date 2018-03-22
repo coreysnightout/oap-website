@@ -12,6 +12,7 @@ class Landing extends React.Component {
         <div className="splash">
           <img className="splash-img" src={SplashImg} />
           <img className="main-splash-logo" src={MainSplashLogo} />
+          <button type='btn' className="explore-button">Explore</button>
         </div>
       </div>
     )
